@@ -1,0 +1,70 @@
+---
+# Front matter required for Jekyll Sass compilation
+---
+
+$background-color: #000000;
+$text-color: #e0e0e0;
+$brand-color: #64b5f6;
+$grey-color: #888888;
+$grey-color-light: #161616;
+$grey-color-dark: #cccccc;
+
+$table-text-color: $text-color;
+$table-header-bg-color: #1a1a1a;
+$table-header-border: #333333;
+$table-border-color: #333333;
+
+$code-background-color: #1a1a1a;
+$border-color-01: #222222;
+$border-color-02: #333333;
+
+@import "minima";
+
+/* Global Dark Mode Defaults */
+html, body {
+  background-color: #000000 !important;
+  color: #e0e0e0 !important;
+}
+
+.site-header {
+  background-color: #0a0a0a !important;
+  border-bottom: 1px solid #222222 !important;
+}
+
+.site-title, .site-title:visited, .site-title:hover {
+  color: #ffffff !important;
+}
+
+.site-nav {
+  background-color: #0a0a0a;
+  border-color: #222222;
+  .page-link {
+    color: #e0e0e0 !important;
+  }
+}
+
+.site-footer {
+  background-color: #0a0a0a !important;
+  border-top: 1px solid #222222 !important;
+  color: #888888;
+
+  .footer-heading {
+    color: #cccccc;
+  }
+}
+
+a {
+  color: #64b5f6;
+}
+
+a:visited {
+  color: #9d8ec1;
+}
+
+a:hover {
+  color: #90caf9;
+}
+
+hr {
+  border-color: #2a2a2a;
+}
