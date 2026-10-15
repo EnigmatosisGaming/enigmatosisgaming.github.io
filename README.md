@@ -9,6 +9,7 @@ This repository powers the official website and policy pages for **Enigmatosis G
 - `index.md`: Homepage content and project links.
 - `ldts/`: Assets and pages related to *Liar's Dice: Tavern Showdown*.
   - `ldts/privacypolicy.html`: Official privacy policy page for Google Play / AdMob compliance.
+  - `ldts/datadeletion.html`: Official data deletion request instructions page for Google Play compliance.
 
 ## Design & Dark Mode Guidelines for Future Pages
 
